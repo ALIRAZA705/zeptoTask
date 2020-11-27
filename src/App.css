@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  flex: 1;
 }
 
 .App-logo {
@@ -12,7 +13,36 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.Button {
 
+  margin-left:0px;
+  margin-top:10px;
+  margin-right:10px;
+  flex-direction:"row";
+
+  justify-content:"space-between";
+  align-items:"center";
+  
+
+}
+.card{
+  width:80rem;
+  margin-left:200px;
+  margin-top:100px;
+
+
+}
+.APP-card{
+  width:100rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  /* margin-left:250px; */
+  /* margin-top:150px; */
+  
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
